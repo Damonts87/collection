@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Athletes</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Favorite Athletes</h1>
+    <form id="athleteForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        <label for="position">Position:</label>
+        <input type="text" id="position" required>
+        <label for="team">Team:</label>
+        <input type="text" id="team" required>
+        <label for="sport">Sport:</label>
+        <input type="text" id="sport" required>
+        <button type="submit">Add Player</button>
+    </form>
+    
+    <table id="athleteTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Sport</th>
+                <th>Team</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</body>
+</html>
